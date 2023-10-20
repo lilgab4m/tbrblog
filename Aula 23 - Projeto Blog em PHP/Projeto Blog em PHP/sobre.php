@@ -12,7 +12,7 @@
       text-align: center;
       margin: 0 auto;
       width: 65%;
-      padding: 20px; /* Adicione um espaçamento interno para melhor legibilidade */
+      padding: 20px;
       color: #ffffff; /* Cor do texto branca para contrastar com o fundo escuro */
     }
   </style>
