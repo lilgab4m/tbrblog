@@ -24,6 +24,7 @@
             // Simulação de posts do blog
 
 
+
             // Exibir os posts
             foreach ($posts as $post) {
                 echo '<div class="post">';
