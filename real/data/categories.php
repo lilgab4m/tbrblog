@@ -6,6 +6,6 @@
     'CSS',
     'JavaScript',
     'Bootstrap',
-    'Netflix',
+    'Java',
     'C#'
   ];
