@@ -17,10 +17,10 @@
   <div class="container">
     <div class="text">
       <form action="https://api.sheetmonkey.io/form/9H2bfmtQthcfpzxUW1Fmko" method="post">
-        <input type="text" placeholder="Nome" required>
-        <input type="text" id="telefone" placeholder="Número" required>
-        <input type="email" placeholder="E-mail" required>
-        <textarea name="mensagem" placeholder="Ecreva sua mensagem..." id="mensagem" cols="30" rows="10" required></textarea>
+        <input type="text" name="Nome" placeholder="Nome" required>
+        <input type="text" name="Telefone" id="telefone" placeholder="Número" required>
+        <input type="email" name="E-mail" placeholder="E-mail" required>
+        <textarea name="Mensagem" placeholder="Ecreva sua mensagem..." id="mensagem" cols="30" rows="10" required></textarea>
         <button type="submit">Enviar</button>
       </form>
       <script>
@@ -40,7 +40,6 @@
 
       </script>
     </div>
-    
     <div class="exemplo">
       <h3>Telefone</h3>
       <p>(55) 11 4002-8922</p>
