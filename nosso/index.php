@@ -7,10 +7,10 @@
 <body>
     <div class="navbar">
         <ul>
-            <li><a href="#">HOME</a></li>
+            <li><a href="index.php">HOME</a></li>
             <li><a href="#">CATEGORIAS</a></li>
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">CONTATO</a></li>
+            <li><a href="sobre.php">SOBRE</a></li>
+            <li><a href="contato.php">CONTATO</a></li>
         </ul>
     </div>
     <div class="container">
@@ -18,11 +18,13 @@
         <?php
             // Simulação de posts do blog
             $posts = array(
+
                 array('id' => 1, 'titulo' => 'Comédia', 'conteudo' => 'Conteúdo do post 1.'),
                 array('id' => 2, 'titulo' => 'Aventura e Ação', 'conteudo' => 'Conteúdo do post 2.'),
                 array('id' => 3, 'titulo' => 'Terror', 'conteudo' => 'Conteúdo do post 3.'),
                 array('id' => 3, 'titulo' => 'Romance', 'conteudo' => 'Conteúdo do post 3.') ,
                 array('id' => 3, 'titulo' => 'Animação', 'conteudo' => 'Conteúdo do post 3.') ,
+
             );
 
             // Exibir os posts
