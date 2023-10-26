@@ -10,9 +10,9 @@
     ],
     [
       'id' => 2,
-      'title' => 'Orientação a Objetos com Java',
-      'description' => 'Aprenda o paradigma de orientação a objetos com Java, uma linguagem em alta no mercado.',
-      'tags' => ['Java', 'OOP', 'Programação Avançada'],
+      'title' => 'Dica de streamer para assinar',
+      'description' => 'Aqui mostraremos os melhores streamer para voce assinar ',
+      'tags' => ['Netflix', 'OOP', 'Programação Avançada'],
       'img' => 'prog-2.jpg'
     ],
     [
