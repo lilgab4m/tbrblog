@@ -34,9 +34,11 @@ body {
 }
 
 .container {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     font-family: Arial, sans-serif;
+    align-items: center;
+    align-content: center;
 }
 
 h1 {
@@ -78,4 +80,8 @@ p {
 .polst1 {
     background-color: #000000;
     color: #000000;
+}
+
+.img1{
+    right: 100px;
 }
