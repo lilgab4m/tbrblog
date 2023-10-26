@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.text {
+    display: flex;
+    width: 40%;
+    
+}
+.exemplo {
+    width: 30%;
+}
+.text form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text input, textarea {
+    border: 0;
+    outline: 0;
+    width: 300px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.text input {
+    border-bottom: 2px solid black;
+    height: 50px;
+    border-radius: 5px;
+}
+.text textarea {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.text button {
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.text button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.exemplo > h3{
+    margin-bottom: 5px;
+}
+
