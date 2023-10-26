@@ -1,6 +1,3 @@
-.h1 {
-    
-}
 .container{
     display: flex;
     justify-content: center;
@@ -28,6 +25,7 @@
 .text input {
     border-bottom: 2px solid black;
     height: 50px;
+    border-radius: 5px;
 }
 .text textarea {
     padding: 10px;
@@ -46,3 +44,7 @@
     color: black;
     border: 2px solid black;
 }
+.exemplo > h3{
+    margin-bottom: 5px;
+}
+
