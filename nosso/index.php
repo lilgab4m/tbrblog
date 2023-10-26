@@ -15,6 +15,7 @@
     </div>
     <div class="container">
         <h1>Meu Blog</h1>
+        <img src="Aula 23 - Projeto Blog em PHP\Projeto Blog em PHP\img\filme.png" alt="">
         <?php
             // Simulação de posts do blog
             $posts = array(
