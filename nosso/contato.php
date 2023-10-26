@@ -7,7 +7,7 @@
   <title>Contato</title>
   <!-- ESTILOS DO PROJETO -->
   <link rel="stylesheet" href="<?= $BASE_URL ?>/css/styles.css">
-  <link rel="stylesheet" href="<?= $BASE_URL ?>/css/contato.css">
+  <link rel="stylesheet" href="css/contato.css">
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">

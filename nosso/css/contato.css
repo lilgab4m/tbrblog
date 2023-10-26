@@ -1,14 +1,25 @@
+body {
+    height: 100%;
+}
+#title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .container{
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 .text {
     display: flex;
     width: 40%;
-    
 }
 .exemplo {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
 }
 .text form{
     display: flex;
@@ -25,7 +36,6 @@
 .text input {
     border-bottom: 2px solid black;
     height: 50px;
-    border-radius: 5px;
 }
 .text textarea {
     padding: 10px;
@@ -46,5 +56,39 @@
 }
 .exemplo > h3{
     margin-bottom: 5px;
+}
+
+@media(max-width: 480px) {  
+    .container {
+        flex-direction: column;
+    }
+    .text {
+        display: flex;
+        width: 100%;
+    }
+    .text input, textarea {
+        border: 0;
+        outline: 0;
+        width: 90%;
+        padding-left: 5px;
+        margin-bottom: 30px;
+    }
+    .text input {
+        border-bottom: 2px solid black;
+        height: 50px;
+    }
+    .text textarea {
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    .exemplo {
+        width: 100%;
+        margin: 20px 20px 0px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
 }
 
