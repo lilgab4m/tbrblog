@@ -7,10 +7,10 @@
 <body>
     <div class="navbar">
         <ul>
-            <li><a href="#">HOME</a></li>
+            <li><a href="index.php">HOME</a></li>
             <li><a href="#">CATEGORIAS</a></li>
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">CONTATO</a></li>
+            <li><a href="sobre.php">SOBRE</a></li>
+            <li><a href="contato.php">CONTATO</a></li>
         </ul>
     </div>
     <div class="container">
@@ -19,7 +19,7 @@
             // Simulação de posts do blog
             $posts = array(
                 array('id' => 1, 'titulo' => 'Post 1', 'conteudo' => 'Conteúdo do post 1.'),
-                array('id' => 2, 'titulo' => 'Post 2', 'conteudo' => 'Conteúdo do post 2.'),
+                array('id' => 2, 'titulo' => 'terror', 'conteudo' => 'Conteúdo do post 2.'),
                 array('id' => 3, 'titulo' => 'Post 3', 'conteudo' => 'Conteúdo do post 3.')
             );
 
