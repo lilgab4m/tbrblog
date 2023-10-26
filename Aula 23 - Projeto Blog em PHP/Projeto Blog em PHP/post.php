@@ -22,9 +22,8 @@
       <div class="img-container">
         <img src="<?= $BASE_URL ?>/img/<?= $currentPost['img'] ?>" alt="<?= $currentPost['title'] ?>">
       </div>
-      <p class="post-content">comedor de xota rosinha 
-      </p>
-      <p class="post-content"> 2.0</p>
+      <p class="post-content">paulao</p>
+      <p class="post-content">paulao2.0</p>
     </div>
     <aside id="nav-container">
       <h3 id="tags-title">Tags</h3>

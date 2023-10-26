@@ -14,24 +14,21 @@
         </ul>
     </div>
     <div class="container">
-        <div class = "escrita1">
-        <h1>Confort Cine</h1>
-        <p>Aqui voce encontrara as melhores dicas de filmes e series
-</div>
-
-        </p>
+        <h1>Meu Blog</h1>
         <?php
             // Simulação de posts do blog
             $posts = array(
-                array('titulo' => 'Post 1', 'conteudo' => 'Conteúdo do post 1.'),
-                array('titulo' => 'Post 2', 'conteudo' => 'Conteúdo do post 2.'),
-                array('titulo' => 'Post 3', 'conteudo' => 'Conteúdo do post 3.')
+                array('id' => 1, 'titulo' => 'Comédia', 'conteudo' => 'Conteúdo do post 1.'),
+                array('id' => 2, 'titulo' => 'Aventura e Ação', 'conteudo' => 'Conteúdo do post 2.'),
+                array('id' => 3, 'titulo' => 'Terror', 'conteudo' => 'Conteúdo do post 3.'),
+                array('id' => 3, 'titulo' => 'Romance', 'conteudo' => 'Conteúdo do post 3.') ,
+                array('id' => 3, 'titulo' => 'Animação', 'conteudo' => 'Conteúdo do post 3.') ,
             );
 
             // Exibir os posts
             foreach ($posts as $post) {
                 echo '<div class="post">';
-                echo '<h2>' . $post['titulo'] . '</h2>';
+                echo '<h2><a href="post.php?id=' . $post['id'] . '">' . $post['titulo'] . '</a></h2>';
                 echo '<p>' . $post['conteudo'] . '</p>';
                 echo '</div>';
             }
