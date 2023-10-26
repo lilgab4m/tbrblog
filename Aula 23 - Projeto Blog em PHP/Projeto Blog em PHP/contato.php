@@ -7,19 +7,20 @@
   <title>Contato</title>
   <!-- ESTILOS DO PROJETO -->
   <link rel="stylesheet" href="<?= $BASE_URL ?>/css/styles.css">
+  <link rel="stylesheet" href="<?= $BASE_URL ?>/css/contato.css">
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <h1>Página de contato</h1>
-  <div>
-    <div>
+<body class="contato">
+  <h1 align="center">Página de contato</h1>
+  <div class="container">
+    <div class="text">
       <form action="">
         <input type="text" placeholder="Nome" required>
         <input type="text" id="telefone" placeholder="Número" required>
         <input type="email" placeholder="E-mail" required>
-        <textarea name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
+        <textarea name="mensagem" placeholder="Ecreva sua mensagem..." id="mensagem" cols="30" rows="10" required></textarea>
         <button type="submit">Enviar</button>
       </form>
       <script>
@@ -39,7 +40,8 @@
 
       </script>
     </div>
-    <div>
+    
+    <div class="exemplo">
       <h3>Telefone</h3>
       <p>(55) 11 4002-8922</p>
       <h3>E-mail</h3>
@@ -52,6 +54,7 @@
       <li>Segerir alguma serie</li>
     </div>
   </div>
+</body>
 <?php
   include_once("templates/footer.php")
 ?>
