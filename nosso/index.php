@@ -18,8 +18,8 @@
         <?php
             // Simulação de posts do blog
             $posts = array(
-                array('id' => 1, 'titulo' => 'Comédia', 'conteudo' => 'Conteúdo do post 1.'),
-                array('id' => 2, 'titulo' => 'Aventura e Ação', 'conteudo' => 'Conteúdo do post 2.'),
+                array('id' => 1, 'titulo' => 'Com1édia', 'conteudo' => 'Aqui você encontra dicas dos melhores filmes e séries de comédeia do momento.   '),
+                array('id' => 2, 'titulo' => 'Aventura e Ação', 'conteudo' => 'Aqui você encontra dicas dos melhores filmes e séries de Aventura e ação do momento.'),
                 array('id' => 3, 'titulo' => 'Terror', 'conteudo' => 'Conteúdo do post 3.'),
                 array('id' => 3, 'titulo' => 'Romance', 'conteudo' => 'Conteúdo do post 3.') ,
                 array('id' => 3, 'titulo' => 'Animação', 'conteudo' => 'Conteúdo do post 3.') ,
