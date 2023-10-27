@@ -21,10 +21,6 @@ main {
   left: 9.5%;
 }
 
-#logo img {
-  width: 50px;
-}
-
 #navbar {
   display: flex;
   align-items: center;

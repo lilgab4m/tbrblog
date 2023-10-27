@@ -1,35 +1,33 @@
 <?php
-  include_once("helpers/url.php");
-  include_once("data/posts.php");
-  include_once("data/categories.php");
+include_once("helpers/url.php");
+include_once("data/posts.php");
+include_once("data/categories.php");
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog Codar</title>
   <!-- ESTILOS DO PROJETO -->
-  <link rel="stylesheet" href="<?= $BASE_URL ?>/css/styles.css">
+  <link rel="stylesheet" href="<?= $BASE_URL ?>css/styles.css">
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>  
+  <header>
     <a href="<?= $BASE_URL ?>" id="logo">
-    <div class="logo123">
-      <img src="<?= $BASE_URL ?>img/logo1.png" alt="Blog Codar">
-</div>
-<style>
-.logo123{
-height: 100px;
-width: 100px;
-}
-
-</style>
-
-
+      <img src="<?= $BASE_URL ?>img/logo1.png" id="Logo1" alt="Blog Codar">
+    </a>
+    <style>
+      #Logo1 {
+        width: 100px;
+      }
+    </style>
     </a>
     <nav>
       <ul id="navbar">

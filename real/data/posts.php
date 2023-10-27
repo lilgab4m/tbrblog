@@ -3,7 +3,7 @@
   $posts = [
     [
       'id' => 1,
-      'title' => 'Confot cine',
+      'title' => 'Comfort Cine',
       'description' => '',
       'tags' => ['Home'],
       'img' => 'imgprincipal.webp'
