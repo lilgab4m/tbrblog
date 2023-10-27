@@ -1,4 +1,6 @@
-
+<?php
+  include_once("templates/header.php");
+?>
 
 <style>
     body {
@@ -79,4 +81,6 @@ header {
         <!-- Adicione mais divs com a classe "item" para mais indicações -->
     </section>
 </body>
-</html>
+<?php
+  include_once("templates/footer.php")
+?>

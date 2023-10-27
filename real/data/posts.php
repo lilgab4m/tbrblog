@@ -4,7 +4,7 @@
     [
       'id' => 1,
       'title' => 'Confot cine',
-      'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series',
+      'description' => '',
       'tags' => ['Home'],
       'img' => 'imgprincipal.webp'
     ],
