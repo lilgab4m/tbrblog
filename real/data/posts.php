@@ -17,7 +17,7 @@
     ],
     [
       'id' => 3,
-      'title' => 'Comedia',
+      'title' => 'Comédia',
       'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de comedia',
       'tags' => ['Home'],
       'img' => 'comedia.png',
@@ -27,29 +27,29 @@
       'id' => 4,
       'title' => 'Romance',
       'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de romançe!',
-      'tags' => ['home'] ,
+      'tags' => ['Home'] ,
       'img' => 'romançe.png'
       
     ],
     [
       'id' => 5,
-      'title' => 'Aventura e açao',
+      'title' => 'Aventura e ação',
       'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de aventura e açao!',
-      'tags' => ['home'],
+      'tags' => ['Home'],
       'img' => 'aventura.jpg'
     ],
     [
       'id' => 6,
-      'title' => 'Animaçao',
+      'title' => 'Animação',
       'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de animaçao!',
-      'tags' => ['home'],
+      'tags' => ['Home'],
       'img' => 'animaçao.jpg'
     ],
     [
       'id' => 7,
-      'title' => 'Documentario',
+      'title' => 'Documentário',
       'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de animaçao!',
-      'tags' => ['home'],
-      'img' => 'animaçao.jpg'
+      'tags' => ['Home'],
+      'img' => 'Documentario.jpeg'
     ],
   ];
