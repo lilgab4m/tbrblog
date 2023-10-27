@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body class="contato">
-  <h1 align="center" id="title">Página de contato</h1>
+  <h1 allign="center" id="title">Página de contato</h1>
   <div class="container">
     <div class="text">
       <form action="https://api.sheetmonkey.io/form/9H2bfmtQthcfpzxUW1Fmko" method="post">
