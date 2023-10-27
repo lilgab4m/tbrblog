@@ -9,7 +9,9 @@
     <div id="posts-container">
       <?php foreach($posts as $post): ?>
         <div class="post-box">
+          <div class="img">
           <img src="<?= $BASE_URL ?>/img/<?= $post['img'] ?>" alt="<?= $post['title'] ?>">
+        </div>
           <h2 class="post-title">
             <a href="<?= $BASE_URL ?>post.php?id=<?= $post['id'] ?>"><?= $post['title'] ?></a>
           </h2>
@@ -27,3 +29,4 @@
 <?php
   include_once("templates/footer.php")
 ?>
+

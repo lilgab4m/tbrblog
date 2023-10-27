@@ -82,13 +82,16 @@
   
   .post-box {
     flex: 1 1 0;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
   }
   
   .post-box:nth-child(3) {
-    margin: 0 1%;
+    margin: 200pc;
   }
-  
+  .img{
+    width: 10px; /* Defina a largura desejada da imagem */
+    height: 20px; /* Defina a altura desejada da imagem */
+  }
   .post-box img {
     width: 100%;
   }
@@ -151,7 +154,7 @@
   
   .post-content {
     line-height: 1.8;
-    margin: 10px 0;
+    margin: 30px 0;
   }
   
   .img-container {
@@ -170,8 +173,8 @@
   #tags-title, #categories-title {
     font-size: 24px;
     margin-bottom: 10px;
-    background-color: #000;
-    color: #FFF;
+    background-color: #000000;
+    color: #000000;
     text-align: center;
     padding: 10px;
     font-weight: 300;

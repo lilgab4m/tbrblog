@@ -3,30 +3,46 @@
   $posts = [
     [
       'id' => 1,
-      'title' => 'Programando em PHP',
-      'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!',
-      'tags' => ['programação', 'PHP', 'lógica de programação'],
-      'img' => 'prog-1.jpg'
+      'title' => 'Confot cine',
+      'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series',
+      'tags' => ['Home'],
+      'img' => 'imgprincipal.webp'
     ],
     [
       'id' => 2,
       'title' => 'Orientação a Objetos com Java',
-      'description' => 'Aprenda o paradigma de orientação a objetos com Java, uma linguagem em alta no mercado.',
-      'tags' => ['Java', 'OOP', 'Programação Avançada'],
-      'img' => 'prog-2.jpg'
+      'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de terror',
+      'tags' => ['Home'],
+      'img' => 'terror.png'
     ],
     [
       'id' => 3,
       'title' => 'A importância da lógica de programação',
-      'description' => 'A lógica de programação é o ponto inicial de muitos estudantes de programação, será que é importante?',
-      'tags' => ['lógica', 'programação', 'algoritmos'],
-      'img' => 'prog-3.jpg',
+      'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de comedia',
+      'tags' => ['Home'],
+      'img' => 'comedia.png',
+      
     ],
     [
       'id' => 4,
       'title' => 'Programando em PHP',
-      'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!',
-      'tags' => ['programação', 'PHP', 'lógica de programação'],
-      'img' => 'prog-4.jpg'
+      'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de romançe!',
+      'tags' => ['home'] ,
+      'img' => 'romançe.png'
+      
+    ],
+    [
+      'id' => 5,
+      'title' => 'Programando em PHP',
+      'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de aventura e açao!',
+      'tags' => ['home'],
+      'img' => 'aventura.jpg'
+    ],
+    [
+      'id' => 6,
+      'title' => 'Programando em PHP',
+      'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de animaçao!',
+      'tags' => ['home'],
+      'img' => 'animaçao.jpg'
     ],
   ];
