@@ -14,6 +14,7 @@
       'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de terror',
       'tags' => ['Home'],
       'img' => 'terror.png'
+      //feito
     ],
     [
       'id' => 3,
@@ -21,6 +22,7 @@
       'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de comedia',
       'tags' => ['Home'],
       'img' => 'comedia.png',
+      //feito
       
     ],
     [
@@ -44,6 +46,9 @@
       'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de animaçao!',
       'tags' => ['Home'],
       'img' => 'animaçao.jpg'
+
+
+    //feito
     ],
     [
       'id' => 7,
