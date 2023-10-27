@@ -16,9 +16,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header>  
     <a href="<?= $BASE_URL ?>" id="logo">
-      <img src="<?= $BASE_URL ?>img/logo.svc" alt="Blog Codar">
+    <div class="logo123">
+      <img src="<?= $BASE_URL ?>img/logo1.png" alt="Blog Codar">
+</div>
+<style>
+.logo123{
+height: 100px;
+width: 100px;
+}
+
+</style>
+
+
     </a>
     <nav>
       <ul id="navbar">
