@@ -39,6 +39,7 @@
       'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de aventura e açao!',
       'tags' => ['Home'],
       'img' => 'aventura.jpg'
+      //feito
     ],
     [
       'id' => 6,
@@ -50,11 +51,5 @@
 
     //feito
     ],
-    [
-      'id' => 7,
-      'title' => 'Documentário',
-      'description' => 'Neste post você vai encontrar as melhores dicas de filmes e series de animaçao!',
-      'tags' => ['Home'],
-      'img' => 'Documentario.jpeg'
-    ],
+
   ];
